@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immigration au Canada | Services de Consultation RCIC Certifié</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+        }
+        .cta-btn {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Section principale (Hero) -->
+    <header class="gradient-bg text-white py-12 md:py-24 px-4 sm:px-6 lg:px-8 shadow-lg">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-4">
+                <span class="block">Votre Avenir au Canada Commence Ici</span>
+            </h1>
+            <p class="text-lg sm:text-xl font-light mb-8 max-w-2xl mx-auto">
+                Accédez à votre rêve canadien avec des experts certifiés. Simplifiez vos démarches, maximisez vos chances de succès.
+            </p>
+            <a href="#contact" class="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 cta-btn">
+                Demandez une consultation gratuite
+            </a>
+        </div>
+    </header>
+
+    <!-- Section Avantages Concurrentiels -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-blue-700">Pourquoi nous choisir ?</h2>
+            <p class="text-gray-600 mb-12 max-w-3xl mx-auto">
+                Notre expertise et notre approche centrée sur le client font la différence. Nous vous offrons les avantages qui comptent vraiment.
+            </p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Avantage 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md card flex flex-col items-center text-center">
+                    <div class="bg-blue-100 p-4 rounded-full mb-4">
+                        <svg class="w-10 h-10 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15.5l-5-5 1.41-1.41L11 14.67l7.59-7.59L20 8.5l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Expertise Certifiée RCIC</h3>
+                    <p class="text-gray-600">
+                        Votre dossier est géré par un Consultant en Immigration Canadien Réglementé (CICC). Une garantie de professionnalisme et d'éthique.
+                    </p>
+                </div>
+                <!-- Avantage 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md card flex flex-col items-center text-center">
+                    <div class="bg-blue-100 p-4 rounded-full mb-4">
+                        <svg class="w-10 h-10 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M10 20c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8c0 1.94-.78 3.7-2.05 4.96l5.05 5.05L21.56 20 18 16.44zm-2-8c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4-4-1.79-4-4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Transparence Totale</h3>
+                    <p class="text-gray-600">
+                        Des frais clairs et sans surprise dès le début. Nous vous expliquons chaque étape du processus en détail.
+                    </p>
+                </div>
+                <!-- Avantage 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md card flex flex-col items-center text-center">
+                    <div class="bg-blue-100 p-4 rounded-full mb-4">
+                        <svg class="w-10 h-10 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Accompagnement Personnalisé</h3>
+                    <p class="text-gray-600">
+                        Chaque projet est unique. Nous créons une stratégie d'immigration sur mesure, adaptée à votre profil et vos objectifs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-blue-700">Nos Services Clés</h2>
+            <p class="text-gray-600 mb-12 max-w-3xl mx-auto">
+                Que vous soyez étudiant, travailleur, entrepreneur ou que vous rejoigniez votre famille, nous avons la solution.
+            </p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card flex flex-col items-center text-center">
+                    <img src="https://placehold.co/120x120/EBF5FF/1D4ED8?text=Permis+de+Travail" alt="Icône permis de travail" class="rounded-lg mb-4">
+                    <h3 class="font-bold text-lg mb-2">Permis de Travail</h3>
+                    <p class="text-sm text-gray-600">
+                        Accompagnement pour l'obtention de permis de travail ou de visas de travailleur qualifié.
+                    </p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card flex flex-col items-center text-center">
+                    <img src="https://placehold.co/120x120/EBF5FF/1D4ED8?text=Entr%C3%A9e+Express" alt="Icône Entrée Express" class="rounded-lg mb-4">
+                    <h3 class="font-bold text-lg mb-2">Entrée Express</h3>
+                    <p class="text-sm text-gray-600">
+                        Gestion complète de votre profil, optimisation de votre score et soumission de votre demande.
+                    </p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card flex flex-col items-center text-center">
+                    <img src="https://placehold.co/120x120/EBF5FF/1D4ED8?text=R%C3%A9unification+Familiale" alt="Icône réunification familiale" class="rounded-lg mb-4">
+                    <h3 class="font-bold text-lg mb-2">Réunification Familiale</h3>
+                    <p class="text-sm text-gray-600">
+                        Parrainez vos proches pour qu'ils viennent s'installer au Canada avec vous.
+                    </p>
+                </div>
+                <!-- Service 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md card flex flex-col items-center text-center">
+                    <img src="https://placehold.co/120x120/EBF5FF/1D4ED8?text=Permis+d%27%C3%A9tudes" alt="Icône permis d'études" class="rounded-lg mb-4">
+                    <h3 class="font-bold text-lg mb-2">Permis d'Études</h3>
+                    <p class="text-sm text-gray-600">
+                        Conseils sur le choix d'établissement et soumission de votre demande d'études.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-blue-700">Ils nous font confiance</h2>
+            <div class="grid md:grid-cols-2 gap-8 mt-12">
+                <!-- Témoignage 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-500">
+                    <p class="text-lg italic text-gray-600">
+                        "Grâce à Horizon Canada, j'ai obtenu ma résidence permanente en seulement quelques mois. Leur professionnalisme et leur réactivité ont fait toute la différence. Je les recommande vivement !"
+                    </p>
+                    <p class="mt-4 font-bold text-gray-700">- Marie, Paris</p>
+                </div>
+                <!-- Témoignage 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-500">
+                    <p class="text-lg italic text-gray-600">
+                        "Je n'aurais jamais cru que le processus d'immigration pouvait être aussi simple. L'équipe d'Horizon Canada m'a accompagné du début à la fin, répondant à toutes mes questions."
+                    </p>
+                    <p class="mt-4 font-bold text-gray-700">- Omar, Abidjan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Appel à l'action finale (Contact) -->
+    <section id="contact" class="gradient-bg text-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Prêt à Démarrer Votre Projet ?</h2>
+            <p class="text-lg font-light mb-8 max-w-2xl mx-auto">
+                Profitez d'une évaluation personnalisée de votre profil d'immigration par un expert certifié. C'est sans engagement !
+            </p>
+            <a href="mailto:info@horizoncanada.com" class="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 cta-btn">
+                Contactez-nous aujourd'hui
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8">
+        <div class="max-w-7xl mx-auto text-center text-sm">
+            <p>&copy; 2024 Horizon Canada. Tous droits réservés.</p>
+            <p class="mt-2">
+                <a href="#" class="hover:text-white">Politique de confidentialité</a> |
+                <a href="#" class="hover:text-white">Conditions d'utilisation</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
